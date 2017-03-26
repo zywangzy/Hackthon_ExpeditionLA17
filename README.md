@@ -11,6 +11,6 @@ The RoadHandler directory extracts the road and railroad network data from geojs
 
 The SupplyHandler directory extracts the plankton data of each port and make inference on fishing production based on it. (by Zhiyuan and Joanna)
 
-The TimeCalculator directory calculates the time needed for each route, which is a part of the animation of final result. (by Cheng)
+The RoutingAlgos directory calculates the best routes and time needed for each route, which is a part of the animation of final result. (by Cheng and Ishan)
 
 The WebDemo directory is our attempt in visualizing the results but doesn't really contribute to this project. Anyway, it can be further developed in the future.
