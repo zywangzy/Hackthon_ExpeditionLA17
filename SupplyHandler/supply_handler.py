@@ -47,6 +47,7 @@ if __name__ == '__main__':
         sum = sum + value
     print 'sum is ' + str(sum)
     total_amount = 2.5e6
+    domestic_ratio = 0.2
     for key, value in port_production.iteritems():
-        port_production[key] = value * 1.0 / sum * total_amount
+        port_production[key] = value * 1.0 / sum * total_amount * domestic_ratio
         print str(key) + ' -> ' + str(port_production[key])
